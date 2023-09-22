@@ -1,0 +1,22 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "name": "hp pavillion",
+      "price": 150000,
+      "checked": true
+    },
+    {
+      "name": "lenovo yoga",
+      "price": 250000,
+      "checked": true,
+      "id": 2
+    },
+    {
+      "id": 4,
+      "name": "acer aspire 7",
+      "price": 750000,
+      "checked": false
+    }
+  ]
+}
