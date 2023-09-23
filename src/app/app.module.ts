@@ -13,6 +13,9 @@ import {ProduitService} from "./services/produit.service";
 import {registerLocaleData} from "@angular/common";
 import { NotFoundComponent } from './not-found/not-found.component';
 import { EditProduitComponent } from './edit-produit/edit-produit.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AppErrorComponent } from './app-error/app-error.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { EditProduitComponent } from './edit-produit/edit-produit.component';
     NouveauProduitComponent,
     HomeComponent,
     NotFoundComponent,
-    EditProduitComponent
+    EditProduitComponent,
+    DashboardComponent,
+    NavbarComponent,
+    AppErrorComponent
   ],
     imports: [
         BrowserModule,
